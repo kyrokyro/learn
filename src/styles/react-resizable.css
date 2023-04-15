@@ -1,0 +1,63 @@
+.react-resizable {
+    position: relative;
+  }
+  .react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    padding: 0 3px 3px 0;
+  }
+  .react-resizable-handle-sw {
+    bottom: 8px;
+    left: 8px;
+    cursor: sw-resize;
+    transform: rotate(90deg);
+  }
+  .react-resizable-handle-se {
+    bottom: 8px;
+    right: 8px;
+    cursor: se-resize;
+  }
+  .react-resizable-handle-nw {
+    top: 8px;
+    left: 8px;
+    cursor: nw-resize;
+    transform: rotate(180deg);
+  }
+  .react-resizable-handle-ne {
+    top: 8px;
+    right: 8px;
+    cursor: ne-resize;
+    transform: rotate(270deg);
+  }
+  .react-resizable-handle-w,
+  .react-resizable-handle-e {
+    top: 50%;
+    margin-top: -10px;
+    cursor: ew-resize;
+  }
+  .react-resizable-handle-w {
+    left: 8px;
+    transform: rotate(135deg);
+  }
+  .react-resizable-handle-e {
+    right: 8px;
+    transform: rotate(315deg);
+  }
+  .react-resizable-handle-n,
+  .react-resizable-handle-s {
+    left: 50%;
+    margin-left: -10px;
+    cursor: ns-resize;
+  }
+  .react-resizable-handle-n {
+    top: 8px;
+    transform: rotate(225deg);
+  }
+  .react-resizable-handle-s {
+    bottom: 8px;
+    transform: rotate(45deg);
+  }
