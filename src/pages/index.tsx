@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             <AuthShowcase />
           </div>
 
-          <GridLayout className="" cols={4} rowHeight={300} width={1200}>
+          <GridLayout className="" cols={2} rowHeight={300} width={600}>
 
             <div key="a" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 0, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/1.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="b" className="group flex flex-col h-full bg-neutral-200 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 1, w: 2, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="b" className="group flex flex-col h-full bg-neutral-200 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 0, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/2.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="c" className="group flex flex-col h-full bg-green-700 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="c" className="group flex flex-col h-full bg-green-700 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 1, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/3.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="d" className="group flex flex-col h-full bg-orange-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 2, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="d" className="group flex flex-col h-full bg-orange-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/4.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="e" className="group flex flex-col h-full bg-blue-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="e" className="group flex flex-col h-full bg-blue-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 2, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/5.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="f" className="group flex flex-col h-full bg-red-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="f" className="group flex flex-col h-full bg-red-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 2, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/6.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -104,17 +104,17 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="g" className="group flex flex-col h-full bg-neutral-900 border  overflow-hidden rounded-xl border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 2, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="g" className="group flex flex-col h-full bg-neutral-900 border  overflow-hidden rounded-xl border-purple-900 shadow-xl" data-grid={{ x: 0, y: 3, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/7.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
             </div>
 
-            <div key="h" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 2, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="h" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 3, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/8.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
             </div>
 
-            <div key="i" className="group flex flex-col h-full bg-blue-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="i" className="group flex flex-col h-full bg-blue-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 4, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/9.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -127,7 +127,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="j" className="group flex flex-col h-full bg-violet-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="j" className="group flex flex-col h-full bg-violet-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 4, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/10.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -140,7 +140,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="k" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 2, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="k" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 5, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/11.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="l" className="group flex flex-col h-full bg-purple-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 2, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="l" className="group flex flex-col h-full bg-purple-600 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 5, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/1.webp")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -166,7 +166,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="m" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="m" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 6, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/2.webp")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -179,7 +179,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="n" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 1, w: 1, h: 2, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
+            <div key="n" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 1, y: 6, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/3.webp")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
               </div>
               <div className="p-4">
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div key="o" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 1, y: 2, w: 1, h: 1, minW: 1, minH: 1 }}>
+            <div key="o" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 0, y: 7, w: 1, h: 1, minW: 1, minH: 1 }}>
 
               <h3 className="text-neutral-100 text-3xl pb-4">
                 Sample Heading
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-            <div key="p" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 1, y: 1, w: 1, h: 2, minW: 1, minH: 1 }}>
+            <div key="p" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 1, y: 7, w: 1, h: 1, minW: 1, minH: 1 }}>
 
               <h3 className="text-neutral-100 text-3xl pb-4">
                 Sample Heading
@@ -212,7 +212,7 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-            <div key="1" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 1, y: 1, w: 2, h: 1, minW: 1, minH: 1 }}>
+            <div key="1" className="group flex flex-col h-full text-neutral-100 border  rounded-xl overflow-hidden border-purple-900 shadow-xl p-4" data-grid={{ x: 0, y: 8, w: 1, h: 1, minW: 1, minH: 1 }}>
 
               <h3 className="text-neutral-100 text-3xl pb-4">
                 Sample Heading
