@@ -5,6 +5,10 @@ import { signIn, signOut, useSession } from "next-auth/react";
 
 import { api } from "~/utils/api";
 
+import GridLayout from "react-grid-layout";
+import "/node_modules/react-grid-layout/css/styles.css";
+import "/node_modules/react-resizable/css/styles.css";
+
 const Home: NextPage = () => {
   const hello = api.example.hello.useQuery({ text: "from tRPC" });
 
@@ -16,6 +20,19 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
+          <GridLayout className=" bg-slate-400" cols={12} rowHeight={64} width={640}>
+        <div key="a" className="bg-slate-500" data-grid={{ x: 0, y: 0, w: 1, h: 2, static: true }}>
+          a
+        </div>
+        <div key="b" className="bg-slate-500" data-grid={{ x: 1, y: 0, w: 3, h: 2, minW: 2, maxW: 4 }}>
+          b
+        </div>
+        <div key="c" className="bg-slate-500" data-grid={{ x: 4, y: 0, w: 1, h: 2 }}>
+          c
+        </div>
+      </GridLayout>
+      </div>
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
@@ -50,7 +67,11 @@ const Home: NextPage = () => {
             </p>
             <AuthShowcase />
           </div>
+          
+          
+          
         </div>
+        
       </main>
     </>
   );
