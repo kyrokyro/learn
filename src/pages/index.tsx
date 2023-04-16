@@ -26,10 +26,16 @@ const Home: NextPage = () => {
 
           <div className="flex flex-row">
           <div className="container">
-          <GridLayout className="" cols={2} rowHeight={300} width={600}>
+          <GridLayout className="" cols={2} rowHeight={250} width={600}>
 
             <div key="a" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 0, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
-              <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/1.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+              <div className="flex flex-col text-left h-full rounded-t-xl p-4" style={{ backgroundImage: `url("/img/1.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+              <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full bg-slate-900 text-gray-200">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+          </svg>
+        </span>
               </div>
               <div className="p-4">
                 <span className="block text-xs font-semibold uppercase text-neutral-300">
@@ -228,7 +234,7 @@ const Home: NextPage = () => {
           </GridLayout>
           </div>
           <div className="container">
-          <GridLayout className="" cols={2} rowHeight={300} width={600}>
+          <GridLayout className="" cols={2} rowHeight={250} width={600}>
 
             <div key="a" className="group flex flex-col h-full bg-neutral-900 border  rounded-xl overflow-hidden border-purple-900 shadow-xl" data-grid={{ x: 0, y: 0, w: 1, h: 1, minW: 1, maxW: 2, minH: 1, maxH: 2 }}>
               <div className="flex flex-col h-full justify-center items-center rounded-t-xl" style={{ backgroundImage: `url("/img/1.jpg")`, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
