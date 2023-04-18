@@ -5,7 +5,6 @@ import { api } from "~/utils/api";
 
 //Components
 import GridLayout from "react-grid-layout";
-import BlockLink from "../components/Blocks/Link";
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +17,6 @@ const Home: NextPage = () => {
       <main className="flex h-full flex-col bg-violet-900">
         <div className="container">
           <AuthShowcase />
-          <BlockLink name="Hello" />
-          <BlockLink name="World" />
           <div className="hs-dropdown relative inline-flex">
   <button id="hs-dropdown-custom-icon-trigger" type="button" className="hs-dropdown-toggle p-3 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800">
     <svg className="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -43,7 +40,6 @@ const Home: NextPage = () => {
   </div>
 </div>
           <GridLayout className="" cols={2} rowHeight={125} width={600}>
-          <BlockLink name="Grid Block Imported Here" />
             <div
               key="a"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
