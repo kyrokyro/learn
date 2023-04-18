@@ -4,7 +4,7 @@ type Props = {
 
 const BlockLink: React.FC<Props> = ({ name }) => {
   console.log('Rendering HomePage component');
-  return <div>Hello, {name}!</div>;
+  return <div>Hello there, {name}!</div>;
 };
 
 export default BlockLink;
