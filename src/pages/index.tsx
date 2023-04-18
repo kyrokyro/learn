@@ -8,10 +8,16 @@ import { useEffect } from "react";
 //Components
 import { GridStack } from "gridstack";
 import BlockLink from "../components/Blocks/Link";
-
+const GridOptions = {
+  column: 12,  // number of columns in the grid
+  cellHeight: 280, // height of each grid cell
+  cellWidth: 280, // height of each grid cell
+  verticalMargin: 24, // space between grid cells vertically
+  animate: true // enable animations when items are moved
+};
 const Home: NextPage = () => {
   useEffect(() => {
-    var grid = GridStack.init();
+    var grid = GridStack.init(GridOptions);
   });
   return (
     <>
@@ -28,7 +34,6 @@ const Home: NextPage = () => {
           <BlockLink id="2" />
           <BlockLink id="3" />
           <BlockLink id="4" />
-          <BlockLink id="5" />
           </div>
         </div>
       </main>
