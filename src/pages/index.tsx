@@ -18,7 +18,6 @@ const Home: NextPage = () => {
       <main className="flex h-full flex-col bg-violet-900">
         <div className="container">
           <AuthShowcase />
-          <BlockLink />
           <BlockLink name="Hello" />
           <BlockLink name="World" />
           <div className="hs-dropdown relative inline-flex">
