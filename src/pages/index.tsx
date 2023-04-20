@@ -40,9 +40,7 @@ const Home: NextPage = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                 }}
-              >
-
-              </div>
+              ></div>
               <div className="p-4">
                 <span className="block text-xs font-semibold uppercase text-neutral-300">
                   google.com
@@ -61,8 +59,8 @@ const Home: NextPage = () => {
                 h: 2,
                 minW: 1,
                 maxW: 2,
-                minH: 1,
-                maxH: 2,
+                minH: 2,
+                maxH: 4,
               }}
             >
               <div
@@ -73,9 +71,7 @@ const Home: NextPage = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                 }}
-              >
-                
-              </div>
+              ></div>
               <div className="p-4">
                 <span className="block text-xs font-semibold uppercase text-neutral-300">
                   google.com
@@ -93,8 +89,8 @@ const Home: NextPage = () => {
                 h: 1,
                 minW: 1,
                 maxW: 2,
-                minH: 1,
-                maxH: 2,
+                minH: 2,
+                maxH: 4,
               }}
             >
               <div
@@ -111,9 +107,16 @@ const Home: NextPage = () => {
             <div
               key="c"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 p-4 text-neutral-100 shadow-xl"
-              data-grid={{ x: 1, y: 1, w: 1, h: 1, minW: 1, minH: 1 }}
+              data-grid={{
+                x: 1,
+                y: 1,
+                w: 1,
+                h: 1,
+                minW: 1,
+                minH: 1,
+              }}
             >
-              <h3 className="pb-4 text-3xl text-neutral-100">Sample Heading</h3>
+              <h3 className="pb-4 text-3xl text-neutral-100">Text Block</h3>
               <p className="text-md text-neutral-100">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -125,9 +128,6 @@ const Home: NextPage = () => {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-
-            
-
           </GridLayout>
         </div>
       </main>
