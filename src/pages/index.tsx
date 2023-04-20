@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 x: 1,
                 y: 0,
                 w: 1,
-                h: 1,
+                h: 2,
                 minW: 1,
                 maxW: 2,
                 minH: 2,
