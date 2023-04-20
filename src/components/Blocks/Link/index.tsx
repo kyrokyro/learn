@@ -4,7 +4,7 @@ type Props = {
 
 const BlockLink: React.FC<Props> = ({ id }) => {
   return (
-    <div id="{id}" className="grid-stack-item">
+    <div id="{id}" className="grid-stack-item" gs-min-w="6">
       <div className="grid-stack-item-content">
         <div className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl">
           <div

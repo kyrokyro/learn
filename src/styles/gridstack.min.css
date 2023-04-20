@@ -36,6 +36,7 @@
   display: block;
   -ms-touch-action: none;
   touch-action: none;
+  padding: 16px;
 }
 .grid-stack > .grid-stack-item.ui-resizable-autohide > .ui-resizable-handle,
 .grid-stack > .grid-stack-item.ui-resizable-disabled > .ui-resizable-handle {
@@ -283,12 +284,12 @@
 }
 .grid-stack.grid-stack-animate,
 .grid-stack.grid-stack-animate .grid-stack-item {
-    transition: all 150ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder,
 .grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,
 .grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing {
-    transition: all 150ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .ui-draggable-dragging,
 .ui-resizable-resizing {

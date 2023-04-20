@@ -5,9 +5,9 @@ import { SessionProvider } from "next-auth/react";
 import { api } from "~/utils/api";
 
 import "~/styles/globals.css";
-// import "~/styles/react-resizable.css";
-// import "~/styles/react-grid-layout.css";
-import "~/styles/gridstack.min.css";
+import "~/styles/react-resizable.css";
+import "~/styles/react-grid-layout.css";
+// import "~/styles/gridstack.min.css";
 
 
 const MyApp: AppType<{ session: Session | null }> = ({
