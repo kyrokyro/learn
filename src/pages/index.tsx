@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <main className="flex h-full flex-col bg-violet-900">
         <div className="container">
           <AuthShowcase />
-          <GridLayout className="" cols={2} rowHeight={125} width={600}>
+          <GridLayout className="" cols={2} rowHeight={100} width={600}>
             {/* Block Start */}
             <div
               key="a"
@@ -273,7 +273,7 @@ const Home: NextPage = () => {
                 minH: 1,
               }}
             >
-              <h3 className="pb-4 text-3xl text-neutral-100">Text Block</h3>
+              <h3 className="pb-4 text-3xl font-semibold text-neutral-100">Text Block</h3>
               <p className="text-md text-neutral-100">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -284,6 +284,22 @@ const Home: NextPage = () => {
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </p>
+            </div>
+            {/* Block Start */}
+            <div
+              key="j"
+              className="group flex h-full flex-col overflow-hidden rounded-xl justify-center border border-purple-900 p-4 text-neutral-100 shadow-xl"
+              data-grid={{
+                x: 1,
+                y: 1,
+                w: 1,
+                h: 1,
+                minW: 1,
+                minH: 1,
+              }}
+            >
+              <h3 className="pb-4 text-3xl font-semibold text-neutral-100">Heading Block</h3>
+             
             </div>
           </GridLayout>
         </div>
