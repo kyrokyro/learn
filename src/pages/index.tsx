@@ -18,6 +18,7 @@ const Home: NextPage = () => {
         <div className="container">
           <AuthShowcase />
           <GridLayout className="" cols={2} rowHeight={125} width={600}>
+            {/* Block Start */}
             <div
               key="a"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
@@ -48,14 +49,138 @@ const Home: NextPage = () => {
                 <p className=" text-neutral-100">Sample page title</p>
               </div>
             </div>
-
+            {/* Block Start */}
             <div
-              key="g"
+              key="b"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
               data-grid={{
-                x: 1,
-                y: 2,
-                w: 2,
+                x: 0,
+                y: 0,
+                w: 1,
+                h: 2,
+                minW: 1,
+                maxW: 2,
+                minH: 2,
+                maxH: 4,
+              }}
+            >
+              <div
+                className="flex h-full flex-col rounded-t-xl p-4 text-left"
+                style={{
+                  backgroundImage: `url("/img/2.jpg")`,
+                  height: "100vh",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="p-4">
+                <span className="block text-xs font-semibold uppercase text-neutral-300">
+                  google.com
+                </span>
+                <p className=" text-neutral-100">Sample page title</p>
+              </div>
+            </div>
+            {/* Block Start */}
+            <div
+              key="c"
+              className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
+              data-grid={{
+                x: 0,
+                y: 0,
+                w: 1,
+                h: 2,
+                minW: 1,
+                maxW: 2,
+                minH: 2,
+                maxH: 4,
+              }}
+            >
+              <div
+                className="flex h-full flex-col rounded-t-xl p-4 text-left"
+                style={{
+                  backgroundImage: `url("/img/3.jpg")`,
+                  height: "100vh",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="p-4">
+                <span className="block text-xs font-semibold uppercase text-neutral-300">
+                  google.com
+                </span>
+                <p className=" text-neutral-100">Sample page title</p>
+              </div>
+            </div>
+            {/* Block Start */}
+            <div
+              key="d"
+              className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
+              data-grid={{
+                x: 0,
+                y: 0,
+                w: 1,
+                h: 2,
+                minW: 1,
+                maxW: 2,
+                minH: 2,
+                maxH: 4,
+              }}
+            >
+              <div
+                className="flex h-full flex-col rounded-t-xl p-4 text-left"
+                style={{
+                  backgroundImage: `url("/img/4.jpg")`,
+                  height: "100vh",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="p-4">
+                <span className="block text-xs font-semibold uppercase text-neutral-300">
+                  google.com
+                </span>
+                <p className=" text-neutral-100">Sample page title</p>
+              </div>
+            </div>
+            {/* Block Start */}
+            <div
+              key="e"
+              className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
+              data-grid={{
+                x: 0,
+                y: 0,
+                w: 1,
+                h: 2,
+                minW: 1,
+                maxW: 2,
+                minH: 2,
+                maxH: 4,
+              }}
+            >
+              <div
+                className="flex h-full flex-col rounded-t-xl p-4 text-left"
+                style={{
+                  backgroundImage: `url("/img/5.jpg")`,
+                  height: "100vh",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="p-4">
+                <span className="block text-xs font-semibold uppercase text-neutral-300">
+                  google.com
+                </span>
+                <p className=" text-neutral-100">Sample page title</p>
+              </div>
+            </div>
+            {/* Block Start */}
+            <div
+              key="f"
+              className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
+              data-grid={{
+                x: 0,
+                y: 0,
+                w: 1,
                 h: 2,
                 minW: 1,
                 maxW: 2,
@@ -76,11 +201,43 @@ const Home: NextPage = () => {
                 <span className="block text-xs font-semibold uppercase text-neutral-300">
                   google.com
                 </span>
+                <p className=" text-neutral-100">Sample page title</p>
+              </div>
+            </div>
+            {/* Block Start */}
+            <div
+              key="g"
+              className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
+              data-grid={{
+                x: 1,
+                y: 2,
+                w: 2,
+                h: 2,
+                minW: 1,
+                maxW: 2,
+                minH: 2,
+                maxH: 4,
+              }}
+            >
+              <div
+                className="flex h-full flex-col rounded-t-xl p-4 text-left"
+                style={{
+                  backgroundImage: `url("/img/7.jpg")`,
+                  height: "100vh",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+              <div className="p-4">
+                <span className="block text-xs font-semibold uppercase text-neutral-300">
+                  google.com
+                </span>
                 <p className=" text-neutral-100">Sample sdfsf title</p>
               </div>
             </div>
+            {/* Block Start */}
             <div
-              key="b"
+              key="h"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 bg-neutral-900 shadow-xl"
               data-grid={{
                 x: 1,
@@ -96,16 +253,16 @@ const Home: NextPage = () => {
               <div
                 className="flex h-full flex-col items-center justify-center rounded-t-xl"
                 style={{
-                  backgroundImage: `url("/img/7.jpg")`,
+                  backgroundImage: `url("/img/8.jpg")`,
                   height: "100vh",
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                 }}
               ></div>
             </div>
-
+            {/* Block Start */}
             <div
-              key="c"
+              key="i"
               className="group flex h-full flex-col overflow-hidden rounded-xl  border border-purple-900 p-4 text-neutral-100 shadow-xl"
               data-grid={{
                 x: 1,
