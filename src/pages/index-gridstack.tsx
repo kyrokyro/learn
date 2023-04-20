@@ -18,7 +18,7 @@ const GridOptions = {
 };
 const Home: NextPage = () => {
   useEffect(() => {
-    var grid = GridStack.init(GridOptions);
+    var grid = GridStack.init();
   });
   return (
     <>
